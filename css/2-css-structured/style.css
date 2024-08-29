@@ -1,0 +1,10 @@
+p {
+    color: red;
+}
+#first-name {
+    color: blue;
+}
+
+.first-name span:nth-child(odd){
+    color: green;
+}

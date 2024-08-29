@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+  }
+p {
+    color: green;
+}
+p.special {
+    color: orange;
+    font-weight: bold;
+}
+li em {
+  color: rebeccapurple;
+}
+h1 + p {
+  font-size: 200%;
+}

@@ -1,0 +1,8 @@
+.emph-text {
+    color: green;
+}
+
+.emph-text em {
+    font-style: normal ; /* o html estiliza como itálico por pardão. Como eu não quero isso, tiro aqui */
+    color: yellow;
+}

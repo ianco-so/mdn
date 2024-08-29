@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Horarios</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+  
+      table {
+        border-collapse: collapse;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+      }
+  
+      th {
+        border-top: 1px solid gray;
+        padding: 10px 20px;
+      }
+  
+      td {
+        border: 1px solid gray;
+        padding: 10px 20px;
+        text-align: center;
+      }
+  
+      caption {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>Horários de aula</caption>
+      <colgroup>
+        <col style="width: 10%; 
+                    background-color: aliceblue;"/>
+        <col style="width: 15%;" span="5" />
+      </colgroup>
+      <tr>
+        <th title="Hora de inicio e fim do periodo" style="background-color: white; border-top: white;">&nbsp;</th>
+        <th title="Segunda-feira" style="border-left: 1px solid gray;">Seg</th>
+        <th title="Terça-feira">Ter</th>
+        <th title="Quarta-feira">Qua</th>
+        <th title="Quinta-feira">Qui</th>
+        <th title="Sexta-feira" style="border-right: 1px solid gray;">  Sex</th>
+      </tr>
+      <tr>
+        <td><time datetime="7:00">07:00</time> - <time datetime="8:40">08:40</time></td>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+      </tr>
+      <tr>
+        <td><time datetime="8:55">08:55</time> - <time datetime="10:35">10:35</time></td>
+        <td>Aprendizado de Máquina</td>
+        <td>RUST</td>
+        <td>Aprendizado de Máquina</td>
+        <td>RUST</td>
+        <td> - </td>
+      </tr>
+      <tr>
+        <td><time datetime="10:50">10:50</time> - <time datetime="12:30">12:30</time></td>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+        <td> - </td>
+      </tr>
+    
+    </table>
+    
+  </body>
+</html>

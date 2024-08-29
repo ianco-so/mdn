@@ -1,0 +1,11 @@
+body {
+    font-size: xx-large;
+}
+
+h2 + p {
+    color:red;
+}
+ul[class="list"] > li {
+    list-style-type: none;
+    border-bottom: 1px solid grey;
+}

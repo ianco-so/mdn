@@ -1,0 +1,23 @@
+a {
+    &:link {
+        color: orange;
+    }
+    &:visited {
+        color: green;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}
+.container > :first-child {
+    font-size: 150%;
+    &::first-line {
+        color: red;
+    }
+}
+tbody tr {
+    &:nth-child(odd) {
+        background-color: black;
+        color: white;
+    }
+}

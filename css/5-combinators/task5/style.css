@@ -1,0 +1,19 @@
+body {
+    font-size: xx-large;
+}
+li {
+    border: 0.3rem solid;
+    list-style-type: none;
+    margin: 1.7rem;
+    padding: 0.5rem;
+
+    &:has(> a[title]) {
+        border-color: pink;
+    }
+    &:has(> a[href*="contact"]) {
+        border-color: orange;
+    }
+    &:has(> a[href^="https"]) {
+        border-color: green;
+    }
+}
