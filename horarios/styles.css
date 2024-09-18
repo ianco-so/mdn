@@ -5,6 +5,7 @@ h1 {
 
 table {
     width: 100%;
+    min-height: 35vw;
     border-collapse: collapse;
 }
 /* Selects th elements with the scope = col */
@@ -19,6 +20,8 @@ th[scope="col"] {
 /* Selects th elements with the scope = row */
 th[scope="row"] {
     font-size: 12pt;
+    writing-mode: vertical-rl;
+    border-bottom: 3px solid black;
 }
 
 /* Selects td elements */
